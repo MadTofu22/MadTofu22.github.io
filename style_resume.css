@@ -1,20 +1,31 @@
 body {
   font-family: 'Calibri', sans-serif;
-  margin: 5;
+  margin: 10px;
   background-color: lavender;
-  border: 2px solid purple;
+}
+
+.frame {
+  padding-right: 10px;
+  padding-bottom: 0px;
+  border: 5px solid purple;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .section {
     border: 2px solid purple;
     border-left: 0px;
-    border-spacing: 20px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
 }
 
 h1 {
   text-align: center;
   border-bottom: 5px dotted purple;
-  padding: 20px;
+  padding: 5px 5px 20px 5px;
 }
 
 h2 {
@@ -22,6 +33,15 @@ h2 {
 }
   
 h3 {
-  padding: 0px;
-  padding-left: 5px
+  margin: 5px 0px 0px 5px;
+
+}
+
+h4 {
+  margin: 0px 0px 0px 5px;
+}
+
+footer {
+  padding: 5px;
+  font-size: .75em;
 }
