@@ -5,15 +5,20 @@ body {
   border: 2px solid purple;
 }
 
+.section {
+    border: 2px solid purple;
+    border-left: 0px;
+
 h1 {
   text-align: center;
   border-bottom: 5px solid #000000;
-  padding: 20px
+  padding: 20px;
 }
 
 h3 {
   padding: 0;
 }
+
 .position {
   font-style: italic;
 }
