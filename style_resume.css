@@ -1,6 +1,8 @@
 body {
   font-family: 'Calibri', sans-serif;
   margin: 5;
+  background-color: lavender;
+  border: 2px solid purple;
 }
 
 h1 {
@@ -9,3 +11,9 @@ h1 {
   padding: 20px
 }
 
+h3 {
+  padding: 0;
+}
+.position {
+  font-style: italic;
+}
