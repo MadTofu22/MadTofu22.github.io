@@ -8,6 +8,8 @@ body {
 .section {
     border: 2px solid purple;
     border-left: 0px;
+    border-spacing: 20px 5px;
+}
 
 h1 {
   text-align: center;
@@ -15,8 +17,12 @@ h1 {
   padding: 20px;
 }
 
+h2 {
+  padding: 5px;
+}
+  
 h3 {
-  padding: 0;
+  padding: 0px;
 }
 
 .position {
