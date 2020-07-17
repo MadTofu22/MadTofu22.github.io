@@ -13,7 +13,7 @@ body {
 
 h1 {
   text-align: center;
-  border-bottom: 5px solid #000000;
+  border-bottom: 5px dotted purple;
   padding: 20px;
 }
 
@@ -22,9 +22,11 @@ h2 {
 }
   
 h3 {
-  padding: 0px;
+  padding: 5px;
+  padding-bottom: 0px
 }
 
 .position {
+  padding-top: 0px;
   font-style: italic;
 }
