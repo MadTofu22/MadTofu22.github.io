@@ -38,12 +38,16 @@ h2 {
 }
 
 h3 {
-  margin: 0px 0px 0px 5px;
+  margin-bottom: -10px;
+}
 
+.job {
+  font-style: italic;
+  margin-bottom: -15px;
 }
 
 .education {
-  margin: 0px 0px 0px 5px;
+  margin: 10px;
   font-style: italic;
 }
 
