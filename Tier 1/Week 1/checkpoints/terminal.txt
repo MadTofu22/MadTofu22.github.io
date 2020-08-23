@@ -30,7 +30,7 @@
   Or to check to make sure you staged, tracked, and/or committed changes correctly.
 
 # 9 - What does the command 'git add .' do?
-  'git add .' stages all files in the current git directory.
+  'git add .' stages all files in the current git directory and adds any untracked files.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
   'git push origin master' will push the committed changes to the master branch.

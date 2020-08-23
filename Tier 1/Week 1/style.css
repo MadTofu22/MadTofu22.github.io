@@ -9,8 +9,13 @@ header {
   color: lavender;
 }
 
+.middle {
+  display: flex;
+}
+
 footer {
   background-color: purple;
+  text-align: center;
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -20,19 +25,21 @@ h1 {
 
 /* Make your p tag a different color and italic */
 p {
-  color: aqua;
+  color: lavender;
   font-style: italic;
 }
 
 /* Put a border around your image */
 
 img {
-  border: 10px solid plum;
+  border: 10px solid purple;
   border-radius: 5px;
+  float: right;
 }
 
 /* Change the font-family of your list */
 ul {
   color: purple;
   font-family: papyrus;
+  float: left;
 }
