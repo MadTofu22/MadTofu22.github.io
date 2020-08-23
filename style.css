@@ -1,0 +1,31 @@
+body {
+  background-image: url("dark_circuit.gif");
+}
+
+header {
+
+}
+
+.foreground {
+  background-color: rgba(153, 238, 255, 0.6);
+  padding: 5px;
+  text-shadow: 2px 2px rgba(0, 149, 179, 0.3);
+}
+
+h1 {
+  border-bottom: 5px solid rgba(153, 238, 255, 1);
+  text-align: center;
+}
+
+h3 {
+  padding-left: 20px;
+}
+
+footer {
+  border-top: 5px solid rgba(153, 238, 255, 1);
+}
+
+nav {
+  text-align: center;
+  padding-top: 5px;
+}
