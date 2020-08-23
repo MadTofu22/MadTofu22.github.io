@@ -8,6 +8,7 @@ header {
 
 .foreground {
   background-color: rgba(153, 238, 255, 0.6);
+  border-radius: 20px;
   padding: 5px;
   text-shadow: 2px 2px rgba(0, 149, 179, 0.3);
 }
@@ -28,4 +29,9 @@ footer {
 nav {
   text-align: center;
   padding-top: 5px;
+}
+
+.navlink {
+   border: 1px solid rgba(163, 240, 255, 1);
+   padding: 0px 5px 0px 5px;
 }
