@@ -21,18 +21,22 @@ body {
     border-bottom-right-radius: 10px;
     padding: 10px;
     margin-left: -10px;
+    margin-top: 10px;
 }
 
 h1 {
   text-align: center;
-  border-bottom: 5px dotted purple;
-  padding: 5px 5px 20px 5px;
 }
 
-h2 {
-  margin: 20px 5px 5px 5px;
+.intro {
+  text-align: center;
+  padding-bottom: 10px;
 }
-  
+h2 {
+  margin: 5px;
+  text-align: center;
+}
+
 h3 {
   margin: 0px 0px 0px 5px;
 
