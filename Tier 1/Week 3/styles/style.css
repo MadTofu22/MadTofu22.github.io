@@ -1,0 +1,10 @@
+/* give your assignment a fun background color */
+body {
+  background-color: aqua;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: .75em;
+}

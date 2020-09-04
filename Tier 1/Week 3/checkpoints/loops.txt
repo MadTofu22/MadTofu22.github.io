@@ -1,0 +1,22 @@
+# Type your responses on a new line
+
+# 1 - Describe the benefit(s) of using loops in your code.
+  Loops provide a way of iterating through stored data, whether it be an array, tuple, dictionary, or other list/sequence. Loops also help keep code clean, readable, and scalable by removing the need to type out each iteration by hand. Another benefit is loops can check a conditional statement on each iteration and end early if needed/applicable.
+
+# 2 - What kind of loop would you want to use if you wanted to do something a certain number of times: for or while?
+  For loops are best when the known number of iterations is pre-determined.
+
+# 3 - What kind of loop would you want to use if you wanted to do something as long as a condition were true: for or while?
+  While loops are best when the known number if iterations is not pre-determined and is instead being checked against a pre-determined condition.
+
+# 4 - What is wrong with this for loop?
+
+  let favoriteFoods = ['tacos', 'pasta', 'sushi'];
+  for(let i = 0; i < favoriteFoods.length; i++) {
+    console.log('I like to eat', i);
+  }
+
+  The console.log statement will output "I like to eat1", "I like to eat2", "I like to eat3" as there is no space after the word 'eat' and the i only refers to the number. This could be corrected by changing the log statement to console.log(`I like to eat ${favoriteFoods[i]}`);
+
+# 5 - What does it mean if you get a console error like this: "Uncaught ReferenceError: i is not defined"?
+  This error means the variable i has not been properly declared and/or defined. Likely in a for loop where someone wrote for (i = 0.... and forgot to put let or var before i.
