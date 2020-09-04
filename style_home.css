@@ -2,19 +2,21 @@ body {
   background-image: url("dark_circuit.gif");
 }
 
-header {
-
-}
-
 .foreground {
   background-color: rgba(153, 238, 255, 0.9);
   border-radius: 20px;
-  padding: 5px;
+  padding: 3px 10px 5px 10px;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+header {
+ margin-top: 10px;
 }
 
 h1 {
   border-bottom: 5px solid rgba(153, 238, 255, 1);
+  padding-bottom: 5px;
+  margin: 10px 10px 0px 10px;
   text-align: center;
 }
 
