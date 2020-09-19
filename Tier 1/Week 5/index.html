@@ -21,29 +21,33 @@
         <li>Since there is no function overloading in javascript, is it best practice to just do paramter type checking, or ensure you pass arguments in the correct format? For instance in addToCollection(), I could do a check for artist to see if it's an object or string. That way I could just pass the full album object in my userAddAlbum().</li>
       </ul>
 
-      <h3>Want to add an album to the collection?</h3>
-      <form onsubmit="return false;">
-        <table>
-          <tr>
-            <th scope="row"><label for="artist">Artist</label></th>
-            <td><input type="text" id="artist" name="artist"></td>
-            <td><input type="submit" id="album_submission" value="Add a Record" onclick="userAddAlbum();"></td>
-          </tr>
-          <tr>
-            <th scope="row"><label for="title">Album Title</label></th>
-            <td><input type="text" id="title" name="title"></td>
-            <td><input type="submit" id="collection_search" value="Search Emporium" onclick="userSearchCollection();"></td>
-          </tr>
-          <tr>
-            <th scope="row"><label for="year">Release Year</label></th>
-            <td><input type="text" id="year" name="year"></td>
+      <section class="browse">
+        <h3>Browse the Emporium!</h3>
+        <p>If you would like to donate an album, please enter the Artist, Album Title, and Release Year then select 'Add a Record' or hit Enter</p>
+        <p>To search the current collection enter any details and select 'Search Emporium'. If no data is entered we'll tell you the whole inventory!</p>
+        <form onsubmit="return false;">
+          <table>
+            <tr>
+              <th scope="row"><label for="artist">Artist</label></th>
+              <td><input type="text" id="artist" name="artist"></td>
+              <td><input type="submit" id="album_submission" value="Add a Record" onclick="userAddAlbum();"></td>
+            </tr>
+            <tr>
+              <th scope="row"><label for="title">Album Title</label></th>
+              <td><input type="text" id="title" name="title"></td>
+              <td><input type="submit" id="collection_search" value="Search Emporium" onclick="userSearchCollection();"></td>
+            </tr>
+            <tr>
+              <th scope="row"><label for="year">Release Year</label></th>
+              <td><input type="text" id="year" name="year"></td>
 
-          </tr>
-        </table>
-      </form>
+            </tr>
+          </table>
+        </form>
 
-      <section id="search_results">
-        <!-- Search results will be added here when requested -->
+        <section id="search_results">
+          <!-- Search results will be added here when requested -->
+        </section>
       </section>
     </main>
   </body>
