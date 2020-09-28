@@ -59,7 +59,7 @@ function addToGarage() {
       $( '.info_field' ).val('');
       $( '#garage_list' ).append(addCarToList(garage[garage.length-1]));
       $( '.view_button' ).on('click', function (event) {
-        let carId = sevent.target.id;
+        let carId = event.target.id;
         animateCarImage(carId);
       });
       return false;
