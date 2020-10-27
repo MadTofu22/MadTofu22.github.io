@@ -13,6 +13,10 @@ header {
  margin-top: 10px;
 }
 
+.prime {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 h1 {
   border-bottom: 5px solid rgba(153, 238, 255, 1);
   padding-bottom: 5px;
@@ -20,9 +24,6 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  padding-left: 20px;
-}
 
 footer {
   border-top: 5px solid rgba(153, 238, 255, 1);
@@ -37,6 +38,9 @@ ul {
   list-style-type: square;
 }
 
+li {
+  margin: 1%;
+}
 .navlink {
    border: 1px solid rgba(163, 240, 255, 1);
    padding: 0px 5px 0px 5px;
