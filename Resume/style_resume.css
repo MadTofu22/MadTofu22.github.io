@@ -8,8 +8,7 @@ body {
 
 .frame {
   margin: 10px auto;
-  padding: 5%;
-  padding-bottom: 0px;
+  padding: 0% 5%;
   border: 5px solid purple;
   border-radius: 10px;
 }
