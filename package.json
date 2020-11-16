@@ -1,0 +1,24 @@
+{
+  "name": "MadTofu22.github.io",
+  "version": "1.0.0",
+  "description": "The purpose of this site if for me to showcase the work that I've done.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadTofu22/MadTofu22.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadTofu22/MadTofu22.github.io/issues"
+  },
+  "homepage": "https://github.com/MadTofu22/MadTofu22.github.io#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
