@@ -1,6 +1,6 @@
 body {
   font-family: 'Calibri', sans-serif;
-  background-image: url("../dark_circuit.gif");
+  background-image: url("../public/assets/images/dark_circuit.gif");
   display: flex;
   justify-content: center;
 }
