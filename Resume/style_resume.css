@@ -6,7 +6,7 @@ body {
 }
 
 .foreground {
-  max-width: 722px;
+  max-width: 1152px;
   margin: 10px auto;
   background-color: rgba(153, 238, 255, 0.9);
   border-radius: 20px;
@@ -14,15 +14,6 @@ body {
   padding: 3px 10px 5px 10px;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
-
-/* Deprecated */
-/* .frame {
-  margin: 10px auto;
-  background-color: rgba(153, 238, 255, 0.5);
-  padding: 0% 5%;
-  border: 5px solid rgba(153, 238, 255, 1);
-  border-radius: 10px;
-} */
 
 .section {
     border: 5px solid rgba(153, 238, 255, 1);

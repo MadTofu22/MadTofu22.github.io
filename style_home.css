@@ -1,10 +1,16 @@
 body {
+  font-family: 'Calibri', sans-serif;
   background-image: url("dark_circuit.gif");
+  display: flex;
+  justify-content: center;
 }
 
 .foreground {
+  max-width: 1152px;
+  margin: 10px auto;
   background-color: rgba(153, 238, 255, 0.9);
   border-radius: 20px;
+  box-shadow: 10px 5px;
   padding: 3px 10px 5px 10px;
   text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
@@ -17,6 +23,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 h1 {
   border-bottom: 5px solid rgba(153, 238, 255, 1);
   padding-bottom: 5px;
