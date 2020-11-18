@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
-import {hashRouter as Router, Route, Link} from 'react-router-dom';
+import {HashRouter as Router, Route, Link} from 'react-router-dom';
+
+// Import custom components
+
 
 class NavBar extends Component {
 
     render () {
         return (
             <Router>
-                <NavButton path='/home' />
+                {/* <NavButton path='/home' />
                 <NavButton path='/resume' />
                 <NavButton path='/prime' />
                 <NavButton path='/about' />
@@ -14,7 +17,7 @@ class NavBar extends Component {
                 <Route exact path='/home' component={HomeDisplay} />
                 <Route exact path='/resume' component={ResumeDisplay} />
                 <Route exact path='/prime' component={PrimeDisplay} />
-                <Route exact path='/about' component={AboutDisplay} />
+                <Route exact path='/about' component={AboutDisplay} /> */}
             </Router>
         );
     }
