@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {withRouter} from 'react-router';
 
 class NavButton extends Component {
 
@@ -10,18 +11,22 @@ class NavButton extends Component {
             case '/home':
                 return 'Home';
             case '/prime':
+                return 'Prime Digital Acadmey'
             case '/about':
                 return 'About';
+            case '/resume':
+                return 'Resume';
         }
     }
 
     render () {
         return (
-            <div className='navBtn'>
-                <h2>{() => this.getBtnText(this.props.path)}</h2>
+            <div className='navBtn' onClick={() => this.props.history.push(this.props.path)}>
+                <h2>{this.getBtnText(this.props.path)}</h2>
             </div>
         );
     }
 }
 
-export default NavButton;
+const NavButtonWithRouter = withRouter(NavButton);
+export default NavButtonWithRouter;

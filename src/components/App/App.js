@@ -1,6 +1,6 @@
 // React app imports
 import React, { Component } from 'react';
-import {HashRouter as Router, Route, Link} from 'react-router-dom';
+import {HashRouter as Router, Route, Link, Redirect} from 'react-router-dom';
 
 // Component imports
 import HomeDisplay from '../HomeDisplay/HomeDisplay';
@@ -10,17 +10,14 @@ class App extends Component {
 
   render() {
     return (
-        <Router>
-            <header>
-                <NavBar />
-            </header>
-            <main>
-                <h1>Welcome!</h1>
-                <h2><Link to='/home'>Enter Site</Link></h2>
-            </main>
-
-            <Route exact path='/home' component={HomeDisplay} />
-        </Router>
+      <Router>
+        <header>
+          <NavBar />
+        </header>
+        <Route exact path='/'>
+          <Redirect to='/home' />
+        </Route>
+      </Router>
     );
   }
 }
