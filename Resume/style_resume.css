@@ -17,6 +17,7 @@ body {
 
 .section {
     border: 5px solid rgba(153, 238, 255, 1);
+    border: 5px solid black;
     border-radius: 10px;
     padding: 10px;
     margin: 10px auto;
@@ -26,20 +27,23 @@ body {
 }
 
 h1 {
+  margin-top: -35px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
 .intro {
   text-align: center;
-  padding-bottom: 10px;
+  margin: 2px 0px;
 }
 
 h2 {
-  margin: 5px;
+  margin: 0px;
   text-align: center;
 }
 
 h3 {
+  margin: 0px;
   margin-bottom: -10px;
 }
 
@@ -47,6 +51,11 @@ h3 {
   font-style: italic;
   margin-bottom: -15px;
 }
+
+.job-description {
+  margin-left: 10px;
+}
+
 
 .education {
   margin: 10px;
@@ -57,8 +66,13 @@ h3 {
   columns: 3;
 }
 
-footer {
-  padding: 5px;
+.contact-info {
+  margin: 0px;
   font-size: .75em;
   text-align: center;
+}
+
+.download-link {
+  text-align: right;
+  margin-top: 10px;
 }
