@@ -10,8 +10,10 @@ class NavButton extends Component {
                 return 'INVALID PATH';
             case '/home':
                 return 'Home';
-            case '/prime':
-                return 'Prime Digital Acadmey'
+            case '/journey':
+                return 'My Journey'
+            case '/works':
+                return 'My Works'
             case '/about':
                 return 'About';
             case '/resume':

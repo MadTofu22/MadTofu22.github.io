@@ -7,23 +7,35 @@ body {
 }
 
 header {
-	background-color: rgba(143, 328, 255, 1);
+	background-color: rgba(143, 238, 255, 1);
     display: inline-flex;
     justify-content: center;
 	width: 100%;
-	height: 10%;
+	height: 50px;
+	position: fixed;
+	box-shadow: 0px 5px 10px 20px rgba(143, 238, 255, 1);
+	top: 0;
+	left: 0;
 }
 
 .foreground {
     max-width: 95%;
-    margin: 10px auto;
+    margin: 100px auto 30px auto;
     background-color: rgba(153, 238, 255, 0.9);
     border-radius: 20px;
     padding: 5px 10px;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
 
-.intro {
+footer {
+	background-color: rgba(143, 238, 255, 1);
+	box-shadow: 0px 5px 10px 20px rgba(143, 238, 255, 1);
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* .intro {
     text-align: center;
 }
 
@@ -40,9 +52,6 @@ h1 {
 }
 
 
-footer {
-    border-top: 5px solid rgba(153, 238, 255, 1);
-}
 
 nav {
     text-align: center;
@@ -55,5 +64,5 @@ ul {
 
 li {
     margin: 1%;
-}
+} */
 

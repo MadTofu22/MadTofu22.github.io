@@ -10,14 +10,12 @@ class NavBar extends Component {
 
     render () {
         return (
-            <Router>
+            <>
                 <NavButton path='/home' />
-                {/* <NavButton path='/about' /> */}
+                <NavButton path='/about' />
                 <NavButton path='/resume' />
-                {/* <NavButton path='/prime' /> */}
-                
-
-            </Router>
+                <NavButton path='/journey' />
+            </>
         );
     }
 }
