@@ -22,11 +22,10 @@ class NavButton extends Component {
     render () {
         return (
             <div className='navBtn' onClick={() => this.props.history.push(this.props.path)}>
-                <h2>{this.getBtnText(this.props.path)}</h2>
+                <h2 className='navBtnLabel'>{this.getBtnText(this.props.path)}</h2>
             </div>
         );
     }
 }
 
-const NavButtonWithRouter = withRouter(NavButton);
-export default NavButtonWithRouter;
+export default withRouter(NavButton);

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import resume from '../../assets/Tom-Stutler-Resume.pdf';
 
 class ResumeDisplay extends Component {
 
@@ -6,8 +7,8 @@ class ResumeDisplay extends Component {
         return (
             <div class="foreground">
                 <div class="download-link">
-                    <a href="../public/assets/Tom-Stutler-Resume.pdf" download>
-                        <img src="../public/assets/images/pdf-icon.png" alt="PDF Download icon and link"/>
+                    <a href={resume} download>
+                        <img src="/assets/images/pdf-icon.png" alt="PDF Download icon and link"/>
                     </a>
                 </div>
                 <h1>Tom Stutler</h1>

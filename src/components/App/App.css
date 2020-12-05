@@ -1,18 +1,59 @@
-.App {
-  text-align: center;
+/* Styling for page layout and color scheme */
+body {
+    font-family: 'Calibri', sans-serif;
+    background-image: url("../../assets/images/dark_circuit.gif");
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header {
+	background-color: rgba(143, 328, 255, 1);
+    display: inline-flex;
+    justify-content: center;
+	width: 100%;
+	height: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.foreground {
+    max-width: 95%;
+    margin: 10px auto;
+    background-color: rgba(153, 238, 255, 0.9);
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
+
+.intro {
+    text-align: center;
+}
+
+.prime {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    border-bottom: 5px solid rgba(153, 238, 255, 1);
+    padding-bottom: 5px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+
+footer {
+    border-top: 5px solid rgba(153, 238, 255, 1);
+}
+
+nav {
+    text-align: center;
+    padding-top: 5px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 1%;
+}
+
