@@ -1,7 +1,25 @@
-.navlink {
-    border: 1px solid rgba(163, 240, 255, 1);
+.navBtn {
+    display: flex;
+    height: 3vh;
+    margin: 1.5vh .5vh;
 }
 
-.navBtn {
+.navBtnClicked {
+    display: flex;
+    height: 3vh;
+    margin: 1em .25em;
+    background: radial-gradient(rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, 0) 100%);
+    border-left: .25em solid rgba(255, 255, 255, 0.5);
+    border-right: .25em solid rgba(255, 255, 255, 0.5);
+}
 
+.navBtn:hover {
+    display: flex;
+    height: 3vh;
+    margin: 1.25em .25em;
+    background: radial-gradient(rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.navBtnLabel {
+    margin: auto .5em;
 }
