@@ -1,9 +1,17 @@
+html, #root {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
 /* Styling for page layout and color scheme */
+
 body {
-    font-family: 'Calibri', sans-serif;
-    background-image: url("../../assets/images/dark_circuit.gif");
+    font-family: 'Copperplate', 'Garamond', serif, 'Calibri', sans-serif;
+	background-image: url("../../assets/images/dark_circuit.gif");
+	background-size: cover;
     display: flex;
-    justify-content: center;
+	justify-content: center;
+	width: 100%;
 }
 
 header {
@@ -11,20 +19,26 @@ header {
     display: inline-flex;
     justify-content: center;
 	width: 100%;
-	height: 50px;
+	height: 5vh;
 	position: fixed;
 	box-shadow: 0px 5px 10px 20px rgba(143, 238, 255, 1);
 	top: 0;
 	left: 0;
+	z-index: 2;
+}
+
+main {
+	min-height: 85vh;
+	max-width: 95%;
+	margin: 10vh auto 2.5vh auto;
 }
 
 .foreground {
-    max-width: 95%;
-    margin: 100px auto 30px auto;
+    
     background-color: rgba(153, 238, 255, 0.9);
-    border-radius: 20px;
+	border-radius: 20px;
+	margin: 5vh auto;
     padding: 5px 10px;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 footer {
@@ -32,37 +46,21 @@ footer {
 	box-shadow: 0px 5px 10px 20px rgba(143, 238, 255, 1);
 	font-size: 14px;
 	text-align: center;
-	padding-bottom: 10px;
+	width: 100%;
+	height: 2.5vh;
+	position: relative;
+	bottom: 0;
 }
 
-/* .intro {
-    text-align: center;
+/* General use page formatting */
+
+.contentHeader {
+	text-align: center;
 }
 
-.prime {
-    padding-left: 20px;
-    padding-right: 20px;
+.textBlock {
+	font-size: 1em;
+    text-align: justify;
+    text-justify: auto;
+    text-indent: 2em;
 }
-
-h1 {
-    border-bottom: 5px solid rgba(153, 238, 255, 1);
-    padding-bottom: 5px;
-    margin: 10px 10px 0px 10px;
-    text-align: center;
-}
-
-
-
-nav {
-    text-align: center;
-    padding-top: 5px;
-}
-
-ul {
-    list-style-type: square;
-}
-
-li {
-    margin: 1%;
-} */
-

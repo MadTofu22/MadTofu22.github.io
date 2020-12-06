@@ -26,7 +26,9 @@ class App extends Component {
 					<Route exact path='/journey' component={JourneyDisplay} />
 					{/* <Route exact path='/about' component={AboutDisplay} /> */}
 				</main>
-				<footer>Copyright &copy; Tom Stutler 2020</footer>
+				<footer>
+					<span>Copyright &copy; Tom Stutler 2020</span>
+					</footer>
 			</Router>
 		);
 	}
