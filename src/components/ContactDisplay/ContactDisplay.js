@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
-import './Contact.css'
+import './Contact.css';
+
+// Import EmailJS and dotenv
+import emailjs, {init} from 'emailjs-com';
+init(process.env.REACT_APP_EMAILJS_USERID);
 
 class ContactDisplay extends Component {
+    
     state = {
         nameInput: '',
         subjectInput: '',
@@ -17,63 +22,94 @@ class ContactDisplay extends Component {
         });
     }
 
+    // This function handles sending the email using emailjs when the send message button is clicked
+    handleSubmit = (event) => {
+        
+        const templateParams = {
+            from_name: this.state.nameInput,
+            subject: this.state.subjectInput,
+            message: this.state.messageInput,
+        };
+        const serviceId = process.env.REACT_APP_EMAILJS_SERVICEID;
+        const templateId = process.env.REACT_APP_EMAILJS_TEMPLATEID;
+
+        event.preventDefault();
+         
+        emailjs
+            .send(serviceId, templateId, templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                event.target.reset();
+                alert('Message sent! Thanks for contacting me!'); // Need to replace with custom modal
+            }, function(error) {
+               console.log('FAILED...', error);
+            });
+    }
+
     render () {
-        console.log(this.state);
+        // console.log(this.state);
 
         return (
             <div className='foreground'>
                 <h1 className='contentHeader contact'>Contact Me</h1>
-                <p className='contentTextBlock contact'>Please drop me a message or feel free to connect with me on any of the following platforms:</p>
-                <form className='messageForm contact'>
+                <p className='contentTextBlock contact'>Please feel free to drop me a message here or  connect with me on any of the following platforms:
+                
+                </p>
+                <form 
+                className='messageForm contact' 
+                onSubmit={event => this.handleSubmit(event)} >
                     <div className='formTop contact'>
-                        <div className='formField contact'>
+                        <div className='formField contact' id='nameField'>
                             <label 
-                                htmlFor='nameInput'
-                                className='formLabel contact'
-                            >
+                                htmlFor='nameInput' 
+                                className='formLabel contact' >
                                 Name:
                             </label>
                             <br/>
-                            <input
-                                className='formInput contact'
-                                id='nameInput'
-                                onChange={event => this.handleChange(event, 'name')}
-                            ></input>
+                            <input 
+                                className='formInput contact' 
+                                name='nameInput' 
+                                id='nameInput' 
+                                onChange={event => this.handleChange(event, 'name')} 
+                            />
                         </div>
-                        <div className='formField contact'>
+                        <div className='formField contact' id='subjectField'>
                             <label 
-                                htmlFor='subjectInput'
-                                className='formLabel contact'
-                            >
+                                htmlFor='subjectInput' 
+                                className='formLabel contact' >
                                 Subject:
                             </label>
                             <br/>
-                            <input
-                                type='text'
-                                className='formInput contact'
-                                id='subjectInput'
-                                onChange={event => this.handleChange(event, 'subject')}
-                            ></input>
-                        </div>
-                        <div>
-
+                            <input 
+                                type='text' 
+                                className='formInput contact' 
+                                name='subjectInput' 
+                                id='subjectInput' 
+                                onChange={event => this.handleChange(event, 'subject')} 
+                            />
                         </div>
                     </div>
                     <div className='formArea contact'>
                         <label 
-                            htmlFor='messageInput'
-                            className='formLabel contact'
-                        >
+                            htmlFor='messageInput' 
+                            className='formLabel contact' >
                             Message:
                         </label>
                         <br/>
-                        <textarea
-                            className='formInput contact'
+                        <textarea 
+                            required 
+                            className='formInput contact' 
+                            name='messageInput' 
                             id='messageInput'
-                            onChange={event => this.handleChange(event, 'message')}
-                        >
-                        </textarea>
+                            onChange={event => this.handleChange(event, 'message')} 
+                        />
                     </div>
+                    <button 
+                        className='formButton contact'
+                        type='submit'
+                        name='submitButton' >
+                        Send Message
+                    </button>
                 </form>
             </div>
         );

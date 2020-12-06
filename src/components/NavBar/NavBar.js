@@ -32,8 +32,8 @@ class NavBar extends Component {
 
         return (
             <>
-                {pages.map(page => {
-                    return <NavButton page={page} />
+                {pages.map((page, index) => {
+                    return <NavButton key={index} page={page} />
                 })}
             </>
         );

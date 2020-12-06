@@ -2,18 +2,41 @@
 .messageForm {
     display: flex;
     flex-direction: column;
+    width: 100%;   
 }
 
 .formTop {
     display: inline-flex;
-}
-
-.formField {
-    margin-right: 1em;
+    justify: space-between;
+    margin: 2em 0em;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .formInput, .formLabel {
     font-size: 1.5em;
+}
+
+.formButton {
+    align-self: center;
+    font-size: 1.5em;
+    width: 20vh;
+}
+
+#subjectField {
+    width: 60%;
+}
+
+#nameField {
+    width: 40%;
+    margin-right: 1em;
+}
+
+#nameInput, #subjectInput {
+    width: 100%;
+    margin: 0em;
+    box-sizing: border-box;
 }
 
 #messageInput {
@@ -21,4 +44,5 @@
     width: 100%;
     max-width: 100%;
     min-width: 100%;
+    box-sizing: border-box;
 }
