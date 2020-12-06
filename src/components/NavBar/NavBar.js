@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {HashRouter as Router, Route, Link} from 'react-router-dom';
 import './Nav.css';
 
 // Import custom components
@@ -20,10 +19,6 @@ class NavBar extends Component {
             {
                 path: '/resume', 
                 label: 'Resume'
-            },
-            {
-                path: '/journey', 
-                label: 'Journey'
             },
             {
                 path: '/projects', 

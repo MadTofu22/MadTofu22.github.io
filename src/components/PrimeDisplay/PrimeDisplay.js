@@ -4,7 +4,7 @@ class PrimeDisplay extends Component {
 
     render () {
         return (
-            <div class="Prime">
+            <div className="prime">
                 <h2>Prime Academy</h2>
                 <h3>Tier 1</h3>
                 <p>During this section of the Prime Digital Academy experience, we focused on learning the basics of a programming. This was done by learning Javascript, HTML, and CSS.</p> 

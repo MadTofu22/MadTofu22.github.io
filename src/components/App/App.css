@@ -6,7 +6,7 @@ html, #root {
 /* Styling for page layout and color scheme */
 
 body {
-    font-family: 'Copperplate', 'Garamond', serif, 'Calibri', sans-serif;
+	
 	background-image: url("../../assets/images/dark_circuit.gif");
 	background-size: cover;
     display: flex;
@@ -28,16 +28,19 @@ header {
 }
 
 main {
+	display: flex;
 	min-height: 87.5vh;
 	margin: 7.5vh auto 2.5vh auto;
-	max-width: 95%;
+	align-items: center;
 }
 
 .foreground {
     
     background-color: rgba(143, 238, 255, 0.9);
 	border-radius: 20px;
-    padding: 5px 10px;
+	padding: 1em 3em;
+	max-width: 80vh;
+	margin: 0vh auto;
 }
 
 footer {
@@ -55,11 +58,14 @@ footer {
 
 .contentHeader {
 	text-align: center;
+	font-size: 4em;
 }
 
-.textBlock {
-	font-size: 1em;
+.contentTextBlock {
+	font-size: 2em;
     text-align: justify;
     text-justify: auto;
-    text-indent: 2em;
+	text-indent: 2em;
+	max-width: 80vh;
+	margin: 0% auto;
 }
