@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Resume.css';
 import resume from '../../assets/files/Tom-Stutler-Resume.pdf';
-import pdfIcon from '../../assets/images/pdf-icon.png';
+import pdfIcon from '../../assets/images/icons/pdf.png';
 
 
 class ResumeDisplay extends Component {

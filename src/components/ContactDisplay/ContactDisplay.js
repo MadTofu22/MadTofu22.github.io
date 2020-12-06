@@ -1,6 +1,12 @@
 import React, {Component} from 'react';
 import './Contact.css';
 
+// Import contact link icons
+import linkedIn from '../../assets/images/icons/linkedin.png';
+import email from '../../assets/images/icons/email.png';
+import github from '../../assets/images/icons/github.png';
+import discord from '../../assets/images/icons/discord.png';
+
 // Import EmailJS and dotenv
 import emailjs, {init} from 'emailjs-com';
 init(process.env.REACT_APP_EMAILJS_USERID);
@@ -53,8 +59,18 @@ class ContactDisplay extends Component {
             <div className='foreground'>
                 <h1 className='contentHeader contact'>Contact Me</h1>
                 <p className='contentTextBlock contact'>Please feel free to drop me a message here or  connect with me on any of the following platforms:
-                
                 </p>
+                <div className='linkIcons contact'>
+                    <a rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/tom-stutler'>
+                        <img src={linkedIn} alt='LinkedIn icon and link' />
+                    </a>
+                    <a rel='noreferrer' target='_blank' href='https://github.com/MadTofu22'>
+                        <img src={github} alt='Github icon and link' />
+                    </a>
+                    <a rel='noreferrer' target='_blank' href='https://discordapp.com/users/175778800100048896'>
+                        <img src={discord} alt='Discord icon and link' />
+                    </a>
+                </div>
                 <form 
                 className='messageForm contact' 
                 onSubmit={event => this.handleSubmit(event)} >
