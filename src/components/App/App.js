@@ -7,8 +7,8 @@ import './App.css'
 import HomeDisplay from '../HomeDisplay/HomeDisplay';
 import NavBar from '../NavBar/NavBar';
 import ResumeDisplay from '../ResumeDisplay/ResumeDisplay';
-import JourneyDisplay from '../JourneyDisplay/JourneyDisplay';
 import AboutDisplay from '../AboutDisplay/AboutDisplay';
+import ContactDisplay from '../ContactDisplay/ContactDisplay';
 
 class App extends Component {
 
@@ -24,7 +24,6 @@ class App extends Component {
 					</Route>
 					<Route exact path='/home' component={HomeDisplay} />
 					<Route exact path='/resume' component={ResumeDisplay} />
-					<Route exact path='/journey' component={JourneyDisplay} />
 					<Route exact path='/about' component={AboutDisplay} />
 				</main>
 				<footer>

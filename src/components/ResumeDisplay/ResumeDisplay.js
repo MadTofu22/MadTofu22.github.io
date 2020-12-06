@@ -20,7 +20,7 @@ class ResumeDisplay extends Component {
                         Passionate leader, developer, learner, and gamer. Seeking challenges and creative solutions.
                     </p>
                     <p className='introContact resume'>
-                        Cell: (612) 386-5531 | Email: stutler.tom@gmail.com | <a rel='noreferrer' target='_blank' href='https://github.com/MadTofu22'>GitHub</a> | <a rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/tom-stutler-160161164'>LinkedIn</a>
+                        Cell: (612) 386-5531 | Email: stutler.tom@gmail.com | <a rel='noreferrer' target='_blank' href='https://github.com/MadTofu22'>GitHub</a> | <a rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/tom-stutler'>LinkedIn</a>
                     </p>
                 </div>
 
