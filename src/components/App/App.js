@@ -25,6 +25,7 @@ class App extends Component {
 					<Route exact path='/home' component={HomeDisplay} />
 					<Route exact path='/resume' component={ResumeDisplay} />
 					<Route exact path='/about' component={AboutDisplay} />
+					<Route exact path='/contact' component={ContactDisplay} />
 				</main>
 				<footer>
 					<span>Copyright &copy; Tom Stutler 2020</span>

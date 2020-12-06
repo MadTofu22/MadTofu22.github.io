@@ -1,0 +1,24 @@
+/* Form formatting */
+.messageForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formTop {
+    display: inline-flex;
+}
+
+.formField {
+    margin-right: 1em;
+}
+
+.formInput, .formLabel {
+    font-size: 1.5em;
+}
+
+#messageInput {
+    min-height: 25vh;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
