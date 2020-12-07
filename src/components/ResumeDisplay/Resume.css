@@ -1,0 +1,67 @@
+
+/* Introduction section at the top of the resume */
+.introContainer {
+    text-align: center;
+    padding: 1em;
+}
+
+.introHeader {
+    font-size: 3em;
+    margin-top: -1em;
+    margin-bottom: 0em;
+}
+
+.introDownload {
+    text-align: right;
+    margin-top: 0em;
+}
+
+.introText {
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+.introContact {
+    margin: 0em;
+}
+
+/* General use formatting for each resume section */
+.sectionContainer {
+    border: 5px solid rgba(0, 22, 42, .6);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0.5em auto;
+}
+
+.sectionHeader {
+    font-size: 2em;
+    text-align: center;
+    margin: 0em auto;
+}
+
+.sectionContentHeader {
+    font-size: 1.5em;
+    margin: 0em;
+}
+
+.sectionContentGroupHeader {
+    font-size: 1.25em;
+    font-style: italic;
+    margin-bottom: 0em;
+}
+
+.sectionContentText {
+    margin: 0em 2em;
+}
+
+.sectionContentGroupList {
+    padding: 0em 3em;
+    list-style-type: square;
+}
+
+/* Specific element styles */
+.skillsList {
+    columns: 5;
+    padding: 0;
+    list-style: none;
+}
