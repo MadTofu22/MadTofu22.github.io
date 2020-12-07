@@ -60,15 +60,36 @@ class ContactDisplay extends Component {
                 <h1 className='contentHeader contact'>Contact Me</h1>
                 <p className='contentTextBlock contact'>Please feel free to drop me a message here or  connect with me on any of the following platforms:
                 </p>
-                <div className='linkIcons contact'>
-                    <a rel='noreferrer' target='_blank' href='https://www.linkedin.com/in/tom-stutler'>
-                        <img src={linkedIn} alt='LinkedIn icon and link' />
+                <div className='linkContainer contact'>
+                    <a 
+                        rel='noreferrer' 
+                        target='_blank' 
+                        href='https://www.linkedin.com/in/tom-stutler' >
+                        <img 
+                            src={linkedIn} 
+                            alt='LinkedIn icon and link' 
+                            className='linkIcon'
+                        />
                     </a>
-                    <a rel='noreferrer' target='_blank' href='https://github.com/MadTofu22'>
-                        <img src={github} alt='Github icon and link' />
+                    <a 
+                        rel='noreferrer' 
+                        target='_blank' 
+                        href='https://github.com/MadTofu22' >
+                        <img 
+                            src={github} 
+                            alt='Github icon and link' 
+                            className='linkIcon' 
+                        />
                     </a>
-                    <a rel='noreferrer' target='_blank' href='https://discordapp.com/users/175778800100048896'>
-                        <img src={discord} alt='Discord icon and link' />
+                    <a 
+                        rel='noreferrer' 
+                        target='_blank' 
+                        href='https://discordapp.com/users/175778800100048896'>
+                        <img 
+                            src={discord} 
+                            alt='Discord icon and link' 
+                            className='linkIcon' 
+                        />
                     </a>
                 </div>
                 <form 

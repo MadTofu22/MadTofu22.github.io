@@ -1,8 +1,20 @@
+/* Link icons formatting */
+.linkContainer {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.linkIcon {
+    margin: 0em 1em;
+}
+
+
 /* Form formatting */
 .messageForm {
     display: flex;
     flex-direction: column;
-    width: 100%;   
+    width: 100%;
+    margin-bottom: 1.5em;
 }
 
 .formTop {
@@ -44,4 +56,5 @@
     max-width: 100%;
     min-width: 100%;
     box-sizing: border-box;
+    margin-bottom: 0.5em;
 }

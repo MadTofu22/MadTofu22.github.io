@@ -1,0 +1,68 @@
+.projectsContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.projectBlockContainer {
+    position: relative;
+    width: 39vh;
+    height: 39vh;
+}
+
+.projectBlockImage {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.projectBlockOverlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0em;
+    width: 100%;
+    height: 100%;
+}
+
+.projectBlockOverlay:hover {
+    background: rgba(143, 238, 255, .75);
+    z-index: 1;
+}
+
+.projectBlockLabel {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 0em;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.projectBlockSynopsis {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: .3s ease;
+    opacity: 0;
+    text-align: center;
+}
+
+.projectBlockOverlay:hover .projectBlockSynopsis {
+    opacity: 1;
+}
+
+.projectBlockOverlay:hover .projectBlockLabel {
+    opacity: 1;
+}
