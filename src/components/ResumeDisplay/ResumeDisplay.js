@@ -71,39 +71,33 @@ class ResumeDisplay extends Component {
                     <h2 className='sectionHeader resume'>Tech Experience</h2>
                     <h3 className='sectionContentHeader resume'>Prime Digital Academy</h3>
                     <p className='sectionContentGroupHeader resume'>Full Stack Development Student, Aug 2020 - Jan 2021</p>
-                    <p className='sectionContentText resume'>Developed MadTofu's Marvelous Mastermind, an independent project in which Users can play the code breaking board game Mastermind in an browser environment, create a profile to track game history, and compare ranks on a leaderboard.
-                    <br/>
-                    <b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub | OperaGX | Postico | Postman
-                    </p>
+                    <p className='sectionContentText resume'>Developed MadTofu's Marvelous Mastermind, an independent project in which Users can play the code breaking board game Mastermind in an browser environment, create a profile to track game history, and compare ranks on a leaderboard.</p>
                     <ul className='sectionContentGroupList resume'>
                         <li className='resume'>Formulated development solutions using industry best practices.</li>
                         <li className='resume'>Engineered web-based application, utilizing a multitude of front-end and back-end languages/frameworks.</li>
                         <li className='resume'>Fostered positive relations in a fast-paced team environment.</li>
                     </ul>
+                    <p><b>Technologies Used:</b> HTML | CSS | Javascript | React | Node | Redux | Passport | Express | Body-parser Postgres | SQL | GitHub | OperaGX | Postico | Postman</p>
 
-                    <h3 className='sectionContentHeader resume'>Activision Publishing Inc, Eden Priarie, MN</h3>
+                    <h3 className='sectionContentHeader resume'>Activision Publishing Inc, Eden Prairie, MN</h3>
                     <p className='sectionContentGroupHeader resume'>Senior QA Tester, Jun 2019 - Jun 2020</p>
-                    <p className='sectionContentText resume'>Worked on Call of Duty: Modern Warfare and Call of Duty: Warzone
-                    <br/>
-                    <b>Technologies Used:</b> Atlassian Jira | TechExcel DevSuite | Xbox One Manager SDK | Playstation Neighborhood
-                    </p>
+                    <p className='sectionContentText resume'>Worked on Call of Duty: Modern Warfare and Call of Duty: Warzone</p>
                     <ul className='sectionContentGroupList resume'>
                         <li className='resume'>Organized and oversaw small to large teams in daily functional and manual testing procedures.</li>
                         <li className='resume'>Tracked and utilized performance metrics to increase productivity and efficiency.</li>
                         <li className='resume'>Encouraged personal and group growth to form cohesive and adaptive team ready for changing project needs.</li>
                         <li className='resume'>Identified and evaluated strengths and areas of improvement in individuals to develop talent.</li>
                     </ul>
+                    <p><b>Technologies Used:</b> Atlassian Jira | TechExcel DevSuite | Xbox One Manager SDK | Playstation Neighborhood</p>
 
                     <p className='sectionContentGroupHeader resume'>QA Tester, Jun 2018 - Jun 2019</p>
-                    <p className='sectionContentText resume'>Worked on Call of Duty: Black Ops 4
-                    <br/>
-                    <b>Technologies Used:</b> Atlassian Jira | TechExcel DevSuite
-                    </p>
+                    <p className='sectionContentText resume'>Worked on Call of Duty: Black Ops 4</p>
                     <ul className='sectionContentGroupList resume'>
                         <li className='resume'>Found and reported issues in a video game environment to help ensure a functional and polished product is delivered to the consumer.</li>
                         <li className='resume'>Provided feedback on game mechanics and design from the consumer perspective to help ensure a balanced and fun product is released to the consumer.</li>
                         <li className='resume'>Worked in fast-paced team environment and adapted to software changes and project needs.</li>
                     </ul>
+                    <p><b>Technologies Used:</b> Atlassian Jira | TechExcel DevSuite</p>
                 </div>
 
                 <div className='sectionContainer resume'>

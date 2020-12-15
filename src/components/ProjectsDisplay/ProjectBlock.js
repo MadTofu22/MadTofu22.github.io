@@ -10,7 +10,7 @@ class ProjectBlock extends Component {
                 <img 
                     className='projectBlockImage projects'
                     src={`assets/images/projects/${this.props.project.image}`}
-                    alt={`Example image for ${this.props.project.name}`}
+                    alt={`Example of ${this.props.project.name}`}
                 />
                 <div className='projectBlockOverlay projects'>
                     <h2 className='projectBlockLabel projects'>{this.props.project.name}</h2>
