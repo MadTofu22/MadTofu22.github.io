@@ -6,8 +6,8 @@ class ProjectDisplay extends Component {
     
     render () {
         return (
-            <div className='foreground'>
-                <h1 className='contentHeader'>My Completed Projects</h1>
+            <div className='modal projectDisplayModal'>
+                <h1 className='modalHeader'>My Completed Projects</h1>
                 <div className='projectsContainer'>
                     {projects.map((project, index) => {
                         return <ProjectBlock key={index} project={project} />
