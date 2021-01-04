@@ -5,7 +5,7 @@ const projects = [
         image: `math_manipulator.png`,
         link: `https://madtofu22s-math-manipulator.herokuapp.com`,
         repo: `https://github.com/MadTofu22/jquery-server-side-calculator`,
-        synopsis: `Learned how to connect a single page web app to an express server with this simple calculator.`,
+        synopsis: `Learned how to connect a web app to an Express server with this simple calculator.`,
         description: `MadTofu22's Marvelous Math is a server side calculator designed to enchance my knowledge of creating web applications. This was also the first project I created that utilizes Express for a server.`,
         technologies: [`HTML`, `CSS`, `Javascript`, `jQuery`, `React`, `Node`, `Express`, `BodyParser`,],
     },
@@ -36,7 +36,7 @@ const projects = [
         link: `https://madtofu22s-task-list.herokuapp.com`,
         repo: `https://github.com/MadTofu22/weekend-sql-to-do-list`,
         synopsis: `This CRUD project allows the user to add or create tasks and store them to a database.`,
-        description: ``,
+        description: `This CRUD application demonstrates my ability to develop REST APIs and update a database usign SQL. I also learned a good amount about conditional rendering while developing this application.`,
         technologies: [`HTML`, `CSS`, `Javascript`, `jQuery`, `Express.js`, `Body-Parser.js`, `Postgreql`, `React`, `React Router`, `Redux`, `Node`,],
     },
     // {

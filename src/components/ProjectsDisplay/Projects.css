@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
+    padding: 1em;
 }
 
 .projectBlockContainer {
@@ -57,6 +58,7 @@
     transition: .3s ease;
     opacity: 0;
     text-align: center;
+    text-overflow: hidden;
 }
 
 .projectBlockOverlay:hover .projectBlockSynopsis {
@@ -65,4 +67,33 @@
 
 .projectBlockOverlay:hover .projectBlockLabel {
     opacity: 1;
+}
+
+.modalContainer {
+    display: inline-flex;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.projectDisplayModal {
+    width: 50vw;
+    margin: 10vh auto;
+    background-color: rgb(158, 20, 185);
+    border: 0.5em solid black;
+	border-radius: 20px;
+	padding: 1em 3em;
+}
+
+.closeButton {
+    text-align: right;
+}
+
+.projectModalList {
+    columns: 6;
 }

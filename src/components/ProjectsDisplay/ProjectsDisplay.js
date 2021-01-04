@@ -11,6 +11,20 @@ class ProjectDisplay extends Component {
     }
 
     // This function handles opening the project modal.
+    openProjectModal = (project) => {
+        this.setState({
+            displayModal: true,
+            modalProject: project,
+        });
+    }
+    
+    // This function handles closing the project modal.
+    closeProjectModal = () => {
+        this.setState({
+            displayModal: false,
+            modalProject: '',
+        });
+    }
 
     render () {
         return (
@@ -18,16 +32,17 @@ class ProjectDisplay extends Component {
                 <h1 className='contentHeader'>My Completed Projects</h1>
                 <div className='projectsContainer'>
                     {projects.map((project, index) => {
-                        return <ProjectBlock key={index} project={project} />
+                        return <ProjectBlock key={index} project={project} openProjectModal={this.openProjectModal} />
                     })}
                 </div>
-                <div className='modalContainer'>
-                    {this.state.displayModal ? 
-                        <ProjectModal project={this.state.modalProject} />
-                        :
-                        ''
-                    }
-                </div>
+                {this.state.displayModal ? 
+                    <ProjectModal 
+                        project={this.state.modalProject} 
+                        closeProjectModal={this.closeProjectModal}
+                    />
+                    :
+                    ''
+                }
             </div>
         );
     }
