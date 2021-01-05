@@ -42,6 +42,8 @@ class ResumeDisplay extends Component {
                         <li>Javascript</li>
                         <li>Passport</li>
                         <li>Material-UI</li>
+                        <li>FullCalendar.io</li>
+                        <li>Email.js</li>
                         <li>GitHub</li>
                         <li>TechExcel DevSuite</li>
                         <li>Atlassian Jira</li>
@@ -71,6 +73,11 @@ class ResumeDisplay extends Component {
                     <h2 className='sectionHeader resume'>Tech Experience</h2>
                     <h3 className='sectionContentHeader resume'>Prime Digital Academy</h3>
                     <p className='sectionContentGroupHeader resume'>Full Stack Development Student, Aug 2020 - Jan 2021</p>
+                    <p className='sectionContentText resume'>Developing I Have a Project, a web based application in which managers of design teams can find talent to assist in times of busy workloads and manage design teams time.
+                    <br/>
+                    <b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub | Google Chrome | Postico | Postman | DBeaver | FullCalendar.io | Email.js
+                    </p>
+                    <br/>
                     <p className='sectionContentText resume'>Developed MadTofu's Marvelous Mastermind, an independent project in which Users can play the code breaking board game Mastermind in an browser environment, create a profile to track game history, and compare ranks on a leaderboard.
                     <br/>
                     <b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub | OperaGX | Postico | Postman
@@ -81,7 +88,7 @@ class ResumeDisplay extends Component {
                         <li className='resume'>Fostered positive relations in a fast-paced team environment.</li>
                     </ul>
 
-                    <h3 className='sectionContentHeader resume'>Activision Publishing Inc, Eden Priarie, MN</h3>
+                    <h3 className='sectionContentHeader resume'>Activision Publishing Inc, Eden Prairie, MN</h3>
                     <p className='sectionContentGroupHeader resume'>Senior QA Tester, Jun 2019 - Jun 2020</p>
                     <p className='sectionContentText resume'>Worked on Call of Duty: Modern Warfare and Call of Duty: Warzone
                     <br/>

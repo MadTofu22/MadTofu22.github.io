@@ -1,7 +1,7 @@
 {
   "name": "MadTofu22.github.io",
-  "homepage": "http://portfolio.tomstutler.dev",
-  "version": "2.0",
+  "homepage": "http://localhost:3000/MadTofu22.github.io",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "dotenv": "^8.2.0",
