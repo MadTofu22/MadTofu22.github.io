@@ -1,6 +1,6 @@
 {
-  "name": "MadTofu22.github.io",
-  "homepage": "http://localhost:3000/MadTofu22.github.io",
+  "name": "portfolio.tomstutler.dev",
+  "homepage": "http://portfolio.tomstutler.dev/#/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
