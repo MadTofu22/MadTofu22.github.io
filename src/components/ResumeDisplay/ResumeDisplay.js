@@ -73,7 +73,7 @@ class ResumeDisplay extends Component {
                     <h2 className='sectionHeader resume'>Tech Experience</h2>
                     <h3 className='sectionContentHeader resume'>Prime Digital Academy</h3>
                     <p className='sectionContentGroupHeader resume'>Full Stack Development Student, Aug 2020 - Jan 2021</p>
-                    <p className='sectionContentText resume'>Developing I Have a Project, a web based application in which managers of design teams can find talent to assist in times of busy workloads and manage design teams time.
+                    <p className='sectionContentText resume'>Developed I Have a Project, currently under NDA, a web based application in which managers can connect to even out the peaks and valleys in project-talent time management. This application can be applied to many industries and helps ensure project mangers can always find the talent they need.
                     <br/>
                     <b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub | Google Chrome | Postico | Postman | DBeaver | FullCalendar.io | Email.js
                     </p>
