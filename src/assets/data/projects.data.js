@@ -13,7 +13,7 @@ const projects = [
     {
         name: `I Have a Project`,
         path: `/project/`,
-        image: `i_have_a_project.png`,
+        image: `ihap.png`,
         link: ``,
         video: `https://www.youtube.com/embed/658-OlkiTCQ`,
         repo: `https://github.com/MadTofu22/i-have-a-project`,
