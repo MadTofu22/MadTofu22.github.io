@@ -1,4 +1,4 @@
-projectsContainer {
+.projectsContainer {
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
