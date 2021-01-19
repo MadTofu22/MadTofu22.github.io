@@ -1,23 +1,25 @@
-.projectsContainer {
+projectsContainer {
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1em;
 }
-
+ 
 .projectBlockContainer {
     position: relative;
     width: 39vh;
     height: 39vh;
+    margin: 0.5em;
+    box-shadow: 0px 5px 15px black;
 }
-
+ 
 .projectBlockImage {
     z-index: 0;
     width: 100%;
     height: 100%;
 }
-
+ 
 .projectBlockOverlay {
     position: absolute;
     z-index: 1;
@@ -27,12 +29,12 @@
     width: 100%;
     height: 100%;
 }
-
+ 
 .projectBlockOverlay:hover {
     background: rgba(143, 238, 255, .75);
     z-index: 1;
 }
-
+ 
 .projectBlockLabel {
     position: absolute;
     z-index: 2;
@@ -46,7 +48,7 @@
     transition: .3s ease;
     opacity: 0;
 }
-
+ 
 .projectBlockSynopsis {
     position: absolute;
     z-index: 2;
@@ -60,15 +62,16 @@
     text-align: center;
     text-overflow: hidden;
 }
-
+ 
 .projectBlockOverlay:hover .projectBlockSynopsis {
     opacity: 1;
 }
-
+ 
 .projectBlockOverlay:hover .projectBlockLabel {
     opacity: 1;
 }
-
+ 
+/* MODAL STYLING */
 .modalContainer {
     display: flex;
     z-index: 2;
@@ -80,22 +83,22 @@
     align-content: center;
     justify-content: center;
 }
-
+ 
 .projectDisplayModal {
     width: 80vw;
     margin: 5vh auto;
     background-color: rgb(158, 20, 185);
     border: 0.5em solid black;
-	border-radius: 20px;
-	padding: 1em 3em;
+    border-radius: 20px;
+    padding: 1em 3em;
 }
-
+ 
 .modalHeader {
     display: inline-flex;
     width: 100%;
     justify-content: center;
 }
-
+ 
 .closeButton {
     position: relative;
     right: 0;
@@ -103,24 +106,29 @@
     /* margin-left: 5em; */
     justify-self: right;
 }
-
+ 
 .modalContentSection {
     display: inline-flex;
 }
-
+ 
 .modalContentText {
     margin: 0em 2em;
 }
-
-.projectModalImage {
+ 
+.projectModalImage, .projectModalVideoWrapper {
     width: 35vw;
     height: 60vh;
 }
-
+ 
+.projectModalVideo {
+    width: 35vw;
+    height: 60vh;
+}
+ 
 .projectModalList {
     columns: 6;
 }
-
+ 
 .modalLinkButtons {
     width: 100%;
     display: inline-flex;
