@@ -25,40 +25,64 @@ class ResumeDisplay extends Component {
                 </div>
 
                 <div className='sectionContainer resume'>
-                    <h2 className='sectionHeader resume'>Skills & Technologies</h2>
-                    <ul className='skillsList resume'>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Flask</li>
-                        <li>Psycopg</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>Express</li>
-                        <li>Postgres</li>
-                        <li>SQL</li>
-                        <li>Javascript</li>
-                        <li>Passport</li>
-                        <li>Material-UI</li>
-                        <li>FullCalendar.io</li>
-                        <li>Email.js</li>
-                        <li>GitHub</li>
-                        <li>TechExcel DevSuite</li>
-                        <li>Atlassian Jira</li>
-                        <li>Atlassian Trello</li>
-                        <li>Smartsheet</li>
-                        <li>Figma</li>
-                        <li>Agile Methodology</li>
-                        <li>Black-box Testing</li>
-                        <li>Unity Engine</li>
-                        <li>Unreal Engine</li>
-                        <li>Postico</li>
-                        <li>Postman</li>
-                        <li>Windows 10</li>
-                        <li>MacOS</li>
-                    </ul>
+                    <div className='listContainer'>
+                        <div className='languagesList'>
+                            <h2 className='sectionHeader resume'>Languages & Frameworks</h2>
+                            <ul className='skillsList resume'>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>VBA</li>
+                                <li>Flask</li>
+                                <li>Psycopg</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Material-UI</li>
+                                <li>FullCalendar.io</li>
+                                <li>Email.js</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>Express</li>
+                                <li>Passport</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div className='verticalLine'></div>
+                        <div className='toolsList'>
+                            <h2 className='sectionHeader resume'>Tools & Software</h2>
+                            <ul className='skillsList resume'>
+                                <li>Postico</li>
+                                <li>Postman</li>
+                                <li>GitHub</li>
+                                <li>Unity Engine</li>
+                                <li>Unreal Engine</li>
+                                <li>TechExcel DevSuite</li>
+                                <li>Atlassian Jira</li>
+                                <li>Atlassian Trello</li>
+                                <li>Smartsheet</li>
+                                <li>Figma</li>
+                                <li>Microsoft Office</li>
+                                <li>Google Suite</li>
+                                <li>Windows 10</li>
+                                <li>MacOS</li>
+                            </ul>
+                        </div>
+                        <div className='verticalLine'></div>
+                        <div className='skillList'>
+                            <h2 className='sectionHeader resume'>Skills & Methods</h2>
+                            <ul className='skillsListSingle resume'>
+                                <li>Agile Scrum Methodology</li>
+                                <li>White-box Testing</li>
+                                <li>Black-box Testing</li>
+                                <li>Visual Coding</li>
+                                <li>Team Collaboration</li>
+                                <li>Servant Leadership</li>
+                                <li>Project Scoping</li>
+                                <li>Remote Communication</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             
                 <div className='sectionContainer resume'>
