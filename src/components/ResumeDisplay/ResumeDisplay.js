@@ -38,11 +38,15 @@ class ResumeDisplay extends Component {
                                 <li>HTML5</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
+                                <li>Node</li>
+                                <li>jQuery</li>
+                                <li>AJAX</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>Axios</li>
                                 <li>Material-UI</li>
                                 <li>FullCalendar.io</li>
                                 <li>Email.js</li>
-                                <li>React</li>
-                                <li>Redux</li>
                                 <li>Express</li>
                                 <li>Passport</li>
                                 <li>PostgreSQL</li>
