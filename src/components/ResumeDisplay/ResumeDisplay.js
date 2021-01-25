@@ -76,6 +76,7 @@ class ResumeDisplay extends Component {
                         <div className='skillList'>
                             <h2 className='sectionHeader resume'>Skills & Methods</h2>
                             <ul className='skillsListSingle resume'>
+                                <li>Object Oriented Programming</li>
                                 <li>Agile Scrum Methodology</li>
                                 <li>White-box Testing</li>
                                 <li>Black-box Testing</li>
