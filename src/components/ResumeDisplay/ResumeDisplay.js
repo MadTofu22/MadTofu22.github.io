@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Resume.css';
-import resume from '../../assets/files/Tom-Stutler-Resume.pdf';
+import resume from '../../assets/files/Tom Stutler - Resume.pdf';
 import pdfIcon from '../../assets/images/icons/pdf.png';
 
 
@@ -25,38 +25,69 @@ class ResumeDisplay extends Component {
                 </div>
 
                 <div className='sectionContainer resume'>
-                    <h2 className='sectionHeader resume'>Skills & Technologies</h2>
-                    <ul className='skillsList resume'>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Flask</li>
-                        <li>Psycopg</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>Express</li>
-                        <li>Postgres</li>
-                        <li>SQL</li>
-                        <li>Javascript</li>
-                        <li>Passport</li>
-                        <li>Material-UI</li>
-                        <li>GitHub</li>
-                        <li>TechExcel DevSuite</li>
-                        <li>Atlassian Jira</li>
-                        <li>Atlassian Trello</li>
-                        <li>Smartsheet</li>
-                        <li>Figma</li>
-                        <li>Agile Methodology</li>
-                        <li>Black-box Testing</li>
-                        <li>Unity Engine</li>
-                        <li>Unreal Engine</li>
-                        <li>Postico</li>
-                        <li>Postman</li>
-                        <li>Windows 10</li>
-                        <li>MacOS</li>
-                    </ul>
+                    <div className='listContainer'>
+                        <div className='languagesList'>
+                            <h2 className='sectionHeader resume'>Languages & Frameworks</h2>
+                            <ul className='skillsList resume'>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>VBA</li>
+                                <li>Flask</li>
+                                <li>Psycopg</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Node</li>
+                                <li>jQuery</li>
+                                <li>AJAX</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>Axios</li>
+                                <li>Material-UI</li>
+                                <li>FullCalendar.io</li>
+                                <li>Email.js</li>
+                                <li>Express</li>
+                                <li>Passport</li>
+                                <li>PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div className='verticalLine'></div>
+                        <div className='toolsList'>
+                            <h2 className='sectionHeader resume'>Tools & Software</h2>
+                            <ul className='skillsList resume'>
+                                <li>Postico</li>
+                                <li>Postman</li>
+                                <li>GitHub</li>
+                                <li>Unity Engine</li>
+                                <li>Unreal Engine</li>
+                                <li>TechExcel DevSuite</li>
+                                <li>Atlassian Jira</li>
+                                <li>Atlassian Trello</li>
+                                <li>Smartsheet</li>
+                                <li>Figma</li>
+                                <li>Microsoft Office</li>
+                                <li>Google Suite</li>
+                                <li>Windows 10</li>
+                                <li>MacOS</li>
+                            </ul>
+                        </div>
+                        <div className='verticalLine'></div>
+                        <div className='skillList'>
+                            <h2 className='sectionHeader resume'>Skills & Methods</h2>
+                            <ul className='skillsListSingle resume'>
+                                <li>Object Oriented Programming</li>
+                                <li>Agile Scrum Methodology</li>
+                                <li>White-box Testing</li>
+                                <li>Black-box Testing</li>
+                                <li>Visual Coding</li>
+                                <li>Team Collaboration</li>
+                                <li>Servant Leadership</li>
+                                <li>Project Scoping</li>
+                                <li>Remote Communication</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             
                 <div className='sectionContainer resume'>
@@ -71,7 +102,15 @@ class ResumeDisplay extends Component {
                     <h2 className='sectionHeader resume'>Tech Experience</h2>
                     <h3 className='sectionContentHeader resume'>Prime Digital Academy</h3>
                     <p className='sectionContentGroupHeader resume'>Full Stack Development Student, Aug 2020 - Jan 2021</p>
-                    <p className='sectionContentText resume'>Developed MadTofu's Marvelous Mastermind, an independent project in which Users can play the code breaking board game Mastermind in an browser environment, create a profile to track game history, and compare ranks on a leaderboard.</p>
+                    <p className='sectionContentText resume'>Developed I Have a Project, currently under NDA, a web based application in which managers can connect to even out the peaks and valleys in project-talent time management. This application can be applied to many industries and helps ensure project mangers can always find the talent they need.
+                    <br/>
+                    <b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub | Google Chrome | Postico | Postman | DBeaver | FullCalendar.io | Email.js
+                    </p>
+                    <br/>
+                    <p className='sectionContentText resume'>Developed MadTofu's Marvelous Mastermind, an independent project in which Users can play the code breaking board game Mastermind in an browser environment, create a profile to track game history, and compare ranks on a leaderboard.
+                    <br/>
+                    <b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub | OperaGX | Postico | Postman
+                    </p>
                     <ul className='sectionContentGroupList resume'>
                         <li className='resume'>Formulated development solutions using industry best practices.</li>
                         <li className='resume'>Engineered web-based application, utilizing a multitude of front-end and back-end languages/frameworks.</li>

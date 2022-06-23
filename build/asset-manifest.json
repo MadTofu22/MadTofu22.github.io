@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95db1d5f.chunk.css",
+    "main.js": "/static/js/main.960436d6.chunk.js",
+    "main.js.map": "/static/js/main.960436d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e742dc59.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e742dc59.js.map",
+    "static/js/2.58b4449c.chunk.js": "/static/js/2.58b4449c.chunk.js",
+    "static/js/2.58b4449c.chunk.js.map": "/static/js/2.58b4449c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.95db1d5f.chunk.css.map": "/static/css/main.95db1d5f.chunk.css.map",
+    "static/js/2.58b4449c.chunk.js.LICENSE.txt": "/static/js/2.58b4449c.chunk.js.LICENSE.txt",
+    "static/media/Tom Stutler - Resume.2cc3540f.pdf": "/static/media/Tom Stutler - Resume.2cc3540f.pdf",
+    "static/media/App.css": "/static/media/dark_circuit.79801fd9.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e742dc59.js",
+    "static/js/2.58b4449c.chunk.js",
+    "static/css/main.95db1d5f.chunk.css",
+    "static/js/main.960436d6.chunk.js"
+  ]
+}

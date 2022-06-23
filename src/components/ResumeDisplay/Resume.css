@@ -25,6 +25,28 @@
     margin: 0em;
 }
 
+.listContainer {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.listHeader {
+    text-align: center;
+}
+
+.languagesList, .toolsList, .skillList {
+    margin: 0.5em;
+    justify-content: center;
+}
+
+.verticalLine {
+    width: 0.5em;
+    margin: 3em 0em;
+    background: radial-gradient(rgba(0, 22, 42, .8) 0%, rgba(0, 22, 42, .4) 40%, rgba(0, 22, 42, 0) 80%);
+    border-radius: 50%;
+}
+
 /* General use formatting for each resume section */
 .sectionContainer {
     border: 5px solid rgba(0, 22, 42, .6);
@@ -61,7 +83,15 @@
 
 /* Specific element styles */
 .skillsList {
-    columns: 5;
+    text-align: center;
+    columns: 2;
+    padding: 0;
+    list-style: none;
+}
+
+.skillsListSingle {
+    text-align: center;
+    columns: 1;
     padding: 0;
     list-style: none;
 }

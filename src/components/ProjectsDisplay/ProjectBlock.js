@@ -4,9 +4,14 @@ import './Projects.css'
 
 class ProjectBlock extends Component {
 
+
+    // This handles displaying a modal for a specific project
     render () {
         return (
-            <div className='projectBlockContainer projects' onClick={() => this.props.history.push(this.props.project.path)}>
+            <div 
+                className='projectBlockContainer projects' 
+                onClick={() => this.props.openProjectModal(this.props.project)}
+            >
                 <img 
                     className='projectBlockImage projects'
                     src={`assets/images/projects/${this.props.project.image}`}
