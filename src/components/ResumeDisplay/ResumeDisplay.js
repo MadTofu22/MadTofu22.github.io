@@ -114,7 +114,7 @@ class ResumeDisplay extends Component {
                     <p className='sectionContentGroupHeader resume'>Stores Lead, Jun 2013 - Aug 2014</p>
                     <ul>
                         <li>Coordinated with other company departments and bases to ensure timely maintenance of aircraft.</li>
-                        <li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires, to assure completion.</li>
+                        <li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires, to ensure completion.</li>
                         <li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies or adjust errors.</li>
                     </ul>
                     <p className='sectionContentGroupHeader resume'>Stores Clerk, May 2012 - Jun 2013</p>
