@@ -12,6 +12,7 @@
 	<style>
 		html {
 			font-size: 20px;
+			
 		}
 
 		/* Introduction section at the top of the resume */
@@ -50,7 +51,7 @@
 			text-align: center;
 		}
 
-		.languagesList, .toolsList, .skillList {
+		.languagesList, .toolsList, .skillList, .historyList, .educationList {
 			/* width: 25vw; */
 			margin: 0.5em;
 			justify-content: center;
@@ -71,6 +72,35 @@
 			margin: 1em 2em;
 		}
 
+		.topContainer {
+			border: 5px solid rgba(0, 0, 0, 0.75);
+			border-radius: 1em;
+			padding: 1em;
+			margin: 1em 2em;
+			
+		}
+
+		.topLeftContainer {
+			padding: 0em;
+			margin: 0em 0em;
+			min-width: max-content;
+		}
+
+		.educationContainer {
+			margin: 0.5em 0em;
+			padding: 0em;
+		}
+		.historyContainer {
+			margin: 0.5em 0em;
+			padding: 0em;
+		}
+
+		.descriptionContainer {
+			margin: 0em 0em;
+			padding: 0em;
+			text-align: center;
+		}
+
 		.sectionHeader {
 			font-size: 2em;
 			text-align: center;
@@ -89,7 +119,7 @@
 		}
 
 		.sectionContentText {
-			margin: 0.25em 2em;
+			margin: 0.25em 1.5em;
 		}
 
 		.sectionContentGroupList {
@@ -119,17 +149,24 @@
 	<div class='foreground resume'>
 		<div class='introContainer resume'>
 			<h1 class='introHeader resume'>Tom Stutler</h1>
-			<p class='introText resume'>
-				Passionate leader, developer, learner, and gamer. Seeking challenges and creative solutions.
-			</p>
 			<p class='introContact resume'>
 				Cell: (612) 386-5531 | Email: stutler.tom@gmail.com | <a rel='noreferrer' target='_blank'
 					href='https://portfolio.tomstutler.dev/#/home'>tomstutler.dev</a> | <a rel='noreferrer' target='_blank'
 					href='https://github.com/MadTofu22'>github.com/MadTofu22</a> | <a rel='noreferrer' target='_blank'
 					href='https://www.linkedin.com/in/tom-stutler'>linkedin.com/in/tom-stutler</a>
 			</p>
+			
 		</div>
 
+		<div class='topContainer resume'>
+			<div class='descriptionContainer resume'>
+				<p class='introText resume'>
+					I'm a dedicated engineer and leader with a strong history in taking on new challenges. Drawing on my my life-long passion for video games, finding and implementing creative solutions in quickly changing environments is my speciality. I have worked diligently to lead modernization efforts and support enterprise cloud infrastructure, while aligning legacy processes with industry best practices. I look forward to conintuing my journey to help shape the future of cloud automation.
+				</p>
+			</div>
+
+		<!-- Removing This section in favor of someting different -->
+<!--
 		<div class='sectionContainer resume'>
 			<div class='listContainer'>
 				<div class='languagesList'>
@@ -211,6 +248,7 @@
 				</div>
 			</div>
 		</div>
+ -->
 
 		<div class='sectionContainer resume'>
 			<h2 class='sectionHeader resume'>Tech Experience</h2>
@@ -292,42 +330,48 @@
 			</ul>
 		</div>
 
-		<div class='sectionContainer resume'>
-			<h2 class='sectionHeader resume'>Work History</h2>
-			<h3 class='sectionContentHeader resume'>T&K Franchise Group, Eagan, MN</h3>
-			<p class='sectionContentGroupHeader resume'>Shift Supervisor, Feb 2017 - Aug 2017</p>
-			<ul class='sectionContentGroupList resume'>
-				<li class='resume'>Encouraged teamwork to foster a positive and efficient work space.</li>
-				<li class='resume'>Ensured deadlines and goals are met in a fast paced environment.</li>
-				<li class='resume'>Communicated with customers to deliver the highest quality product and experience.</li>
-			</ul>
-
-			<h3 class='sectionContentHeader resume'>Endeavor Air, Minneapolis, MN</h3>
-			<p class='sectionContentGroupHeader resume'>Stores Lead, Jun 2013 - Aug 2014</p>
-			<ul class='sectionContentGroupList resume'>
-				<li>Coordinated with other company departments and bases to ensure timely maintenance of aircraft.</li>
-				<li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires,
-					to assure completion.</li>
-				<li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies
-					or adjust errors.</li>
-			</ul>
-			<p class='sectionContentGroupHeader resume'>Stores Clerk, May 2012 - Jun 2013</p>
-			<ul class='sectionContentGroupList resume'>
-				<li>Issued and distributed materials, parts, and tools to maintenance staff based on information from incoming
-					requisitions.</li>
-				<li>Examined contents and compare with records, such as manifests, invoices, or orders, to verify accuracy of
-					incoming or outgoing shipment.</li>
-				<li>Prepared documents such as work orders, bills of lading, or shipping orders, to route materials.</li>
-			</ul>
+					<div class='topLeftContainer resume'>
+				<div class='listContainer resume'>
+					<div class='educationList resume'>
+						<h2 class='sectionHeader resume'>Education</h2>
+						<h3 class='sectionContentGroupHeader resume'>Prime Digital Academy</h3>
+						<p class='sectionContentText resume'>Full Stack Software Engineering Certification - Jan 2021</p>
+						<h3 class='sectionContentGroupHeader resume'>Minneapolis Community & Technical College</h3>
+						<p class='sectionContentText resume'>Mathematics A.S. - May 2018</p>
+					</div>
+					<div class='verticalLine'></div>
+					<div class='historyList resume'>
+						<h2 class='sectionHeader resume'>Work History</h2>
+						<h3 class='sectionContentGroupHeader resume'>T&K Franchise Group, Eagan, MN</h3>
+						<p class='sectionContentText resume'>Shift Supervisor, Feb 2017 - Aug 2017</p>
+						<!-- <ul class='sectionContentGroupList resume'>
+							<li class='resume'>Encouraged teamwork to foster a positive and efficient work space.</li>
+							<li class='resume'>Ensured deadlines and goals are met in a fast paced environment.</li>
+							<li class='resume'>Communicated with customers to deliver the highest quality product and experience.</li>
+						</ul> -->
+			
+						<h3 class='sectionContentGroupHeader resume'>Endeavor Air, Minneapolis, MN</h3>
+						<p class='sectionContentText resume'>Stores Lead, Jun 2013 - Aug 2014</p>
+						<!-- <ul class='sectionContentGroupList resume'>
+							<li>Coordinated with other company departments and bases to ensure timely maintenance of aircraft.</li>
+							<li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires,
+								to assure completion.</li>
+							<li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies
+								or adjust errors.</li>
+						</ul> -->
+						<p class='sectionContentText resume'>Stores Clerk, May 2012 - Jun 2013</p>
+						<!-- <ul class='sectionContentGroupList resume'>
+							<li>Issued and distributed materials, parts, and tools to maintenance staff based on information from incoming
+								requisitions.</li>
+							<li>Examined contents and compare with records, such as manifests, invoices, or orders, to verify accuracy of
+								incoming or outgoing shipment.</li>
+							<li>Prepared documents such as work orders, bills of lading, or shipping orders, to route materials.</li>
+						</ul> -->
+					</div>
+				</div>	
+			</div>
 		</div>
 
-		<div class='sectionContainer resume'>
-			<h2 class='sectionHeader resume'>Education</h2>
-			<h3 class='sectionContentHeader resume'>Prime Digital Academy</h3>
-			<p class='sectionContentText resume'>Full Stack Software Engineering Certification - Graduated Jan 2021</p>
-			<h3 class='sectionContentHeader resume'>Minneapolis Community & Technical College</h3>
-			<p class='sectionContentText resume'>Mathematics A.S. - Graduated May 2018</p>
-		</div>
 	</div>
 </body>
 
