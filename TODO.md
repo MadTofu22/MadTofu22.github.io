@@ -3,8 +3,8 @@
 This is a running list of the features and changes I want to make to the repo.
 
 ## Update Resume
-- [x] Restrucuture Layout
-- [x] Update Content
+- [x] Restrucuture Layout 2/23/23
+- [x] Update Content 2/23/23
 - [ ] Enhance for easier editing
 
 ## Update Styling
