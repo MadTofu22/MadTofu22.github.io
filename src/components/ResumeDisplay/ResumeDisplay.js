@@ -153,7 +153,18 @@ class ResumeDisplay extends Component {
                             languages/frameworks.</li>
                         <li class='resume'>Fostered positive relations in a fast-paced team environment.</li>
                     </ul>
+                    <p><b>Technologies Used:</b> HTML | CSS | Javascript | React | Node | Redux | Passport | Express | Body-parser Postgres | SQL | GitHub | OperaGX | Postico | Postman</p>
 
+<<<<<<< HEAD
+                    <h3 className='sectionContentHeader resume'>Activision Publishing Inc, Eden Prairie, MN</h3>
+                    <p className='sectionContentGroupHeader resume'>Senior QA Tester, Jun 2019 - Jun 2020</p>
+                    <p className='sectionContentText resume'>Worked on Call of Duty: Modern Warfare and Call of Duty: Warzone</p>
+                    <ul className='sectionContentGroupList resume'>
+                        <li className='resume'>Organized and oversaw small to large teams in daily functional and manual testing procedures.</li>
+                        <li className='resume'>Tracked and utilized performance metrics to increase productivity and efficiency.</li>
+                        <li className='resume'>Encouraged personal and group growth to form cohesive and adaptive team ready for changing project needs.</li>
+                        <li className='resume'>Identified and evaluated strengths and areas of improvement in individuals to develop talent.</li>
+=======
                     <h3 class='sectionContentHeader resume'>Activision Publishing Inc, Eden Prairie, MN</h3>
                     <p class='sectionContentGroupHeader resume'>Senior QA Tester, Jun 2019 - Jun 2020</p>
                     <p class='sectionContentText resume'>Shipped Call of Duty: Modern Warfare and Call of Duty: Warzone
@@ -168,8 +179,18 @@ class ResumeDisplay extends Component {
                             project needs.</li>
                         <li class='resume'>Identified and evaluated strengths and areas of improvement in individuals to develop talent.
                         </li>
+>>>>>>> 96d2b0604818c2ac5db2c72de8d51341777a48a9
                     </ul>
+                    <p><b>Technologies Used:</b> Atlassian Jira | TechExcel DevSuite | Xbox One Manager SDK | Playstation Neighborhood</p>
 
+<<<<<<< HEAD
+                    <p className='sectionContentGroupHeader resume'>QA Tester, Jun 2018 - Jun 2019</p>
+                    <p className='sectionContentText resume'>Worked on Call of Duty: Black Ops 4</p>
+                    <ul className='sectionContentGroupList resume'>
+                        <li className='resume'>Found and reported issues in a video game environment to help ensure a functional and polished product is delivered to the consumer.</li>
+                        <li className='resume'>Provided feedback on game mechanics and design from the consumer perspective to help ensure a balanced and fun product is released to the consumer.</li>
+                        <li className='resume'>Worked in fast-paced team environment and adapted to software changes and project needs.</li>
+=======
                     <p class='sectionContentGroupHeader resume'>QA Tester, Jun 2018 - Jun 2019</p>
                     <p class='sectionContentText resume'>Shipped Call of Duty: Black Ops 4
                         <br/>
@@ -181,7 +202,9 @@ class ResumeDisplay extends Component {
                         <li class='resume'>Provided feedback on game mechanics and design from the consumer perspective to help ensure a
                             balanced and fun product is released to the consumer.</li>
                         <li class='resume'>Worked in fast-paced team environment and adapted to software changes and project needs.</li>
+>>>>>>> 96d2b0604818c2ac5db2c72de8d51341777a48a9
                     </ul>
+                    <p><b>Technologies Used:</b> Atlassian Jira | TechExcel DevSuite</p>
                 </div>
 
                 <div class='sectionContainer resume'>
@@ -198,10 +221,15 @@ class ResumeDisplay extends Component {
                     <p class='sectionContentGroupHeader resume'>Stores Lead, Jun 2013 - Aug 2014</p>
                     <ul class='sectionContentGroupList resume'>
                         <li>Coordinated with other company departments and bases to ensure timely maintenance of aircraft.</li>
+<<<<<<< HEAD
+                        <li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires, to ensure completion.</li>
+                        <li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies or adjust errors.</li>
+=======
                         <li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires,
                             to assure completion.</li>
                         <li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies
                             or adjust errors.</li>
+>>>>>>> 96d2b0604818c2ac5db2c72de8d51341777a48a9
                     </ul>
                     <p class='sectionContentGroupHeader resume'>Stores Clerk, May 2012 - Jun 2013</p>
                     <ul class='sectionContentGroupList resume'>
