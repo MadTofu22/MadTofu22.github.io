@@ -12,6 +12,7 @@
 	<style>
 		html {
 			font-size: 20px;
+			
 		}
 
 		/* Introduction section at the top of the resume */
@@ -50,7 +51,7 @@
 			text-align: center;
 		}
 
-		.languagesList, .toolsList, .skillList {
+		.languagesList, .toolsList, .skillList, .historyList, .educationList {
 			/* width: 25vw; */
 			margin: 0.5em;
 			justify-content: center;
@@ -71,6 +72,35 @@
 			margin: 1em 2em;
 		}
 
+		.topContainer {
+			border: 5px solid rgba(0, 0, 0, 0.75);
+			border-radius: 1em;
+			padding: 1em;
+			margin: 1em 2em;
+			
+		}
+
+		.topLeftContainer {
+			padding: 0em;
+			margin: 0em 0em;
+			min-width: max-content;
+		}
+
+		.educationContainer {
+			margin: 0.5em 0em;
+			padding: 0em;
+		}
+		.historyContainer {
+			margin: 0.5em 0em;
+			padding: 0em;
+		}
+
+		.descriptionContainer {
+			margin: 0em 0em;
+			padding: 0em;
+			text-align: center;
+		}
+
 		.sectionHeader {
 			font-size: 2em;
 			text-align: center;
@@ -89,7 +119,7 @@
 		}
 
 		.sectionContentText {
-			margin: 0.25em 2em;
+			margin: 0.25em 1.5em;
 		}
 
 		.sectionContentGroupList {
@@ -117,96 +147,60 @@
 
 <body>
 	<div class='foreground resume'>
-		<div class='introContainer resume'>
-			<h1 class='introHeader resume'>Tom Stutler</h1>
-			<p class='introText resume'>
-				Passionate leader, developer, learner, and gamer. Seeking challenges and creative solutions.
-			</p>
-			<p class='introContact resume'>
-				Cell: (612) 386-5531 | Email: stutler.tom@gmail.com | <a rel='noreferrer' target='_blank'
-					href='https://portfolio.tomstutler.dev/#/home'>tomstutler.dev</a> | <a rel='noreferrer' target='_blank'
-					href='https://github.com/MadTofu22'>github.com/MadTofu22</a> | <a rel='noreferrer' target='_blank'
-					href='https://www.linkedin.com/in/tom-stutler'>linkedin.com/in/tom-stutler</a>
-			</p>
-		</div>
-
-		<div class='sectionContainer resume'>
-			<!-- <h2 class='sectionHeader resume'>Skills & Technologies</h2> -->
-			<div class='listContainer'>
-				<div class='languagesList'>
-					<h2 class='sectionHeader resume'>Languages & Frameworks</h2>
-					<ul class='skillsList resume'>
-						<li>C++</li>
-						<li>Java</li>
-						<li>Python</li>
-						<li>VBA</li>
-						<li>Flask</li>
-						<li>Psycopg</li>
-						<li>HTML5</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>Node</li>
-						<li>jQuery</li>
-						<li>AJAX</li>
-						<li>React</li>
-						<li>Redux</li>
-						<li>Axios</li>
-						<li>Material-UI</li>
-						<li>FullCalendar.io</li>
-						<li>Email.js</li>
-						<li>Express</li>
-						<li>Passport</li>
-						<li>PostgreSQL</li>
-					</ul>
-				</div>
-				<div class='verticalLine'></div>
-				<div class='toolsList'>
-					<h2 class='sectionHeader resume'>Tools & Software</h2>
-					<ul class='skillsList resume'>
-						<li>Postico</li>
-						<li>Postman</li>
-						<li>GitHub</li>
-						<li>Unity Engine</li>
-						<li>Unreal Engine</li>
-						<li>TechExcel DevSuite</li>
-						<li>Atlassian Jira</li>
-						<li>Atlassian Trello</li>
-						<li>Smartsheet</li>
-						<li>Figma</li>
-						<li>Microsoft Office</li>
-						<li>Google Suite</li>
-						<li>Windows 10</li>
-						<li>MacOS</li>
-					</ul>
-				</div>
-				<div class='verticalLine'></div>
-				<div class='skillList'>
-					<h2 class='sectionHeader resume'>Skills & Methods</h2>
-					<ul class='skillsListSingle resume'>
-						<li>Object Oriented Programming</li>
-						<li>Agile Scrum Methodology</li>
-						<li>White-box Testing</li>
-						<li>Black-box Testing</li>
-						<li>Visual Coding</li>
-						<li>Team Collaboration</li>
-						<li>Servant Leadership</li>
-						<li>Project Scoping</li>
-						<li>Remote Communication</li>
-					</ul>
-				</div>
+		<div class='topContainer resume'>
+			<div class='introContainer resume'>
+				<h1 class='introHeader resume'>Tom Stutler</h1>
 			</div>
-		</div>
+			<div class='descriptionContainer resume'>
+				<p class='introText resume'>
+					I'm a dedicated engineer and leader with a strong history in taking on new challenges. Drawing on my my life-long passion for video games, finding and implementing creative solutions in quickly changing environments is my specialty. I have worked diligently to lead modernization efforts and support enterprise cloud infrastructure, while aligning legacy processes with industry best practices. I look forward to continuing my journey to help shape the future of cloud automation.
+				</p>
+			</div>
 
-		<div class='sectionContainer resume'>
-			<h2 class='sectionHeader resume'>Education</h2>
-			<h3 class='sectionContentHeader resume'>Prime Digital Academy</h3>
-			<p class='sectionContentText resume'>Full Stack Software Engineering Certification - Graduated Jan 2021</p>
-			<h3 class='sectionContentHeader resume'>Minneapolis Community & Technical College</h3>
-			<p class='sectionContentText resume'>Mathematics A.S. - Graduated May 2018</p>
-		</div>
-
-		<div class='sectionContainer resume'>
 			<h2 class='sectionHeader resume'>Tech Experience</h2>
+			<h3 class='sectionContentHeader resume'>Travelers</h3>
+			<p class='sectionContentGroupHeader resume'>Senior Technology Engineer, Aug 2022 - Present</p>
+			<p>
+				As the first full time cloud automation engineer on a new team supporting cloud infrastructure, I have had the pleasure to help shape the future of cloud adoption across our enterprise. Leading a team of early in career engineers I have aligned and implemented our legacy applications and processes with industry best practices.
+			</br>
+				<b>Technologies Used:</b> Golang | Python | Javascript | C# | .Net | Terraform | AWS | SQL | Service Now | Rally | Canopy | Jenkins | UrbanCodeDeploy | Confluence
+			</p>
+			
+			<p class='sectionContentText resume'>
+				<ul class='sectionContentGroupList resume'>
+					<li class='resume'>Lead modernization efforts to migrate enterprise applications to AWS cloud.</li>
+					<li class='resume'>Mentor early in career team members in industry best practices in multiple technologies.</li>
+					<li class='resume'>Assist with reorganization and team realignement to enhance reliability and encourage separation of duties.</li>
+					<li class='resume'>Rearchitect legacy automation utilites to increase scalability and efiiciency.</li>
+					<li class='resume'>Leverage Infrastructure as Code to provision and maintiain enterprise resources.</li>
+				</ul>
+			</p>
+
+			<p class='sectionContentGroupHeader resume'>TLDP Infrastructure Engineer, Apr 2021 - Aug 2022</p>
+			<p>As an Infrastructure Engineer in the Technology Leadership Development Program (TLDP) I have taken on many rewarding responsibilities that have allowed me to up-skill and hone a variety of skillsets. As a TLDP Participant I have a daily rotational role in which I have been working as an Infrastructure Engineer in our Cloud Enablement SRE team.
+			<br/>
+			<b>Technologies Used:</b> HTML | CSS | Javascript | C# | .Net |  Terraform | Hashicorp Vault | AWS | MySQL Workbench | Visual Studio | IaC | Remedy | Service Now
+			</p>
+			<p class='sectionContentText resume'>
+				<ul class='sectionContentGroupList resume'>
+					<li class='resume'>Support enterpise migration to AWS cloud by provisioning, troubleshooting, and deprovisioning infrastructure resources.</li>
+					<li class='resume'>Develop new, and enhance existing, automation tooling to assist Cloud SRE team and increase efficiency to meet service level objectives.</li>
+					<li class='resume'>Manage Cloud SRE support queue by effectively communicating service offerings with customers and assigning tickets to Cloud SRE Engineers.</li>
+					<li class='resume'>Enhance and design IaC solutions following best practices and compliance standards set by Security and Architecture partner teams.</li>
+					<li class='resume'>Coordinate change manangement requests to ensure stability and security of production services while alligning to industry best practices.</li>
+				</ul>
+			</p>
+			<p class='sectionContentGroupHeader resume'>TLDP Engagement Committee Co-Chair, Jun 2021 - Jun 2022</p>
+			<p>Durign my time in the TLDP I helped co-found and lead the TLDP Engagement Comittee to help foster a positive community of peers as the program rapidly scaled from ~20 to ~100 annual participants. Creating and launching the TLDP EC Clubs program was an incredibly rewarding experience.
+			<br/>
+			</p>
+			<p class='sectionContentText resume'>
+				<ul class='sectionContentGroupList resume'>
+					<li class='resume'>Collaborate on the mission and structure of a new committee, including devision of responsibilities between Co-Chairs.</li>
+					<li class='resume'>Design, plan, and faciliate events to foster a positvie and inclusive community within the TLDP.</li>
+					<li class='resume'>Architected TLDP EC Clubs Program to provide leadership opportunities to fellow TLDP Participants during program growth.</li>
+				</ul>
+			</p>
 			<h3 class='sectionContentHeader resume'>Prime Digital Academy</h3>
 			<p class='sectionContentGroupHeader resume'>Full Stack Development Student, Aug 2020 - Jan 2021</p>
 			<br/>
@@ -217,7 +211,7 @@
 				<b>Technologies Used:</b> HTML | CSS | Javascript | React | Redux | Passport | Express | Postgres | SQL | GitHub
 				| Google Chrome | Postico | Postman | DBeaver | FullCalendar.io | Email.js
 			</p>
-			<br />
+			<br/>
 			<p class='sectionContentText resume'>Developed MadTofu's Marvelous Mastermind, an independent project in which
 				Users can play the code breaking board game Mastermind in an browser environment, create a profile to track game
 				history, and compare ranks on a leaderboard.
@@ -260,36 +254,57 @@
 					balanced and fun product is released to the consumer.</li>
 				<li class='resume'>Worked in fast-paced team environment and adapted to software changes and project needs.</li>
 			</ul>
+
+			<div class='topLeftContainer resume'>
+				<div class='listContainer resume'>
+					<div class='educationList resume'>
+						<h2 class='sectionHeader resume'>Education</h2>
+						<h3 class='sectionContentGroupHeader resume'>Prime Digital Academy</h3>
+						<p class='sectionContentText resume'>Full Stack Software Engineering Certification - Jan 2021</p>
+						<h3 class='sectionContentGroupHeader resume'>Minneapolis Community & Technical College</h3>
+						<p class='sectionContentText resume'>Mathematics A.S. - May 2018</p>
+					</div>
+
+					<div class='verticalLine'></div>
+					<div class='historyList resume'>
+						<h2 class='sectionHeader resume'>Work History</h2>
+						<h3 class='sectionContentGroupHeader resume'>T&K Franchise Group, Eagan, MN</h3>
+						<p class='sectionContentText resume'>Shift Supervisor, Feb 2017 - Aug 2017</p>
+						<!-- <ul class='sectionContentGroupList resume'>
+							<li class='resume'>Encouraged teamwork to foster a positive and efficient work space.</li>
+							<li class='resume'>Ensured deadlines and goals are met in a fast paced environment.</li>
+							<li class='resume'>Communicated with customers to deliver the highest quality product and experience.</li>
+						</ul> -->
+						<h3 class='sectionContentGroupHeader resume'>Endeavor Air, Minneapolis, MN</h3>
+						<p class='sectionContentText resume'>Stores Lead, Jun 2013 - Aug 2014</p>
+						<!-- <ul class='sectionContentGroupList resume'>
+							<li>Coordinated with other company departments and bases to ensure timely maintenance of aircraft.</li>
+							<li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires,
+								to assure completion.</li>
+							<li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies
+								or adjust errors.</li>
+						</ul> -->
+						<p class='sectionContentText resume'>Stores Clerk, May 2012 - Jun 2013</p>
+						<!-- <ul class='sectionContentGroupList resume'>
+							<li>Issued and distributed materials, parts, and tools to maintenance staff based on information from incoming
+								requisitions.</li>
+							<li>Examined contents and compare with records, such as manifests, invoices, or orders, to verify accuracy of
+								incoming or outgoing shipment.</li>
+							<li>Prepared documents such as work orders, bills of lading, or shipping orders, to route materials.</li>
+						</ul> -->
+					</div>
+				</div>	
+				<div class='introContainer resume'>
+					<p class='introContact resume'>
+						Cell: (612) 386-5531 | Email: stutler.tom@gmail.com | <a rel='noreferrer' target='_blank'
+							href='https://portfolio.tomstutler.dev/#/home'>tomstutler.dev</a> | <a rel='noreferrer' target='_blank'
+							href='https://github.com/MadTofu22'>github.com/MadTofu22</a> | <a rel='noreferrer' target='_blank'
+							href='https://www.linkedin.com/in/tom-stutler'>linkedin.com/in/tom-stutler</a>
+					</p>
+				</div>
+			</div>
 		</div>
 
-		<div class='sectionContainer resume'>
-			<h2 class='sectionHeader resume'>Work History</h2>
-			<h3 class='sectionContentHeader resume'>T&K Franchise Group, Eagan, MN</h3>
-			<p class='sectionContentGroupHeader resume'>Shift Supervisor, Feb 2017 - Aug 2017</p>
-			<ul class='sectionContentGroupList resume'>
-				<li class='resume'>Encouraged teamwork to foster a positive and efficient work space.</li>
-				<li class='resume'>Ensured deadlines and goals are met in a fast paced environment.</li>
-				<li class='resume'>Communicated with customers to deliver the highest quality product and experience.</li>
-			</ul>
-
-			<h3 class='sectionContentHeader resume'>Endeavor Air, Minneapolis, MN</h3>
-			<p class='sectionContentGroupHeader resume'>Stores Lead, Jun 2013 - Aug 2014</p>
-			<ul class='sectionContentGroupList resume'>
-				<li>Coordinated with other company departments and bases to ensure timely maintenance of aircraft.</li>
-				<li>Distributed tasks to personnel and provide assistance, or instruction in policy and procedure to new hires,
-					to assure completion.</li>
-				<li>Verified inventory computations by comparing them to physical counts of stock, and investigate discrepancies
-					or adjust errors.</li>
-			</ul>
-			<p class='sectionContentGroupHeader resume'>Stores Clerk, May 2012 - Jun 2013</p>
-			<ul class='sectionContentGroupList resume'>
-				<li>Issued and distributed materials, parts, and tools to maintenance staff based on information from incoming
-					requisitions.</li>
-				<li>Examined contents and compare with records, such as manifests, invoices, or orders, to verify accuracy of
-					incoming or outgoing shipment.</li>
-				<li>Prepared documents such as work orders, bills of lading, or shipping orders, to route materials.</li>
-			</ul>
-		</div>
 	</div>
 </body>
 
