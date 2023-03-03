@@ -1,0 +1,42 @@
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+}
+    .introContainer {
+        text-align: center;
+        margin: 0em 2em;
+    }
+
+    .addressContainer {
+        min-width: max-content;
+        min-height: 100%;
+        justify-content: center;
+    }
+        .addressContainer.p {
+            vertical-align: middle;
+        }
+
+.experienceContainer {
+    text-align: left;
+    margin: 1em 2em;
+}
+
+    .companyContainer {
+
+    }
+
+.bottomContainer {
+    display: flex;
+}
+
+    .educationContainer {
+
+    }
+
+    .workContainer {
+
+    }
+
+    .contactContainer {
+        
+    }
